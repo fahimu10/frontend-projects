@@ -1,0 +1,370 @@
+body {
+    font-weight: 300;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+}
+header{
+    background-image: url(../images/bg-header.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+
+}
+.nav-section{padding-top: 20px;}
+.logo{
+    width: 150px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition-duration: 0.4s;
+    padding: 15px;
+
+}
+.banner-section .row {
+    min-height: 100vh;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-section{
+    position:  relative;
+    min-height: 100vh;
+}
+.banner-content{
+    text-align:  center;
+}
+.banner-profile{
+    width: 200px;
+    height: 200px;
+}
+.banner-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  900;
+    font-size: 5em;
+    line-height:  5rem;
+}
+hr{
+        height: 2px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-color: #EF4035;
+        width: 150px;
+        margin: 15px auto;
+}
+.banner-content p{
+    font-size: 20px;
+}
+.arrow{
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+    left:  50%;
+}
+.arrow a{font-size: 30px;line-height: 50px;width: 50px;height: 50px;padding: 0;letter-spacing: normal;color: white;border: 2px solid white;border-radius: 100% !important;}
+.about-section{}
+.about-section h2{
+    font-weight:  bold;
+    font-size: 52px;
+}
+.about-section i{
+    font-size: 40px;
+}
+.about-section h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.about-section p{
+    color:  gray;
+    font-size:  13px;
+    margin-bottom:  0;
+}
+.team-section{
+    background:  #FAFAFD;
+}
+.team-section h2{
+    font-weight:  bold;
+    font-size:  2em;
+}
+.team-section p{
+    color:  gray;
+    font-size:  13px;
+    margin-bottom:  0;
+}
+.team-section{}
+.team-section h2{
+    font-weight:  bold;
+    font-size: 52px;
+}
+.team-section p{
+    color:  gray;
+    font-size:  13px;
+    margin-bottom:  0;
+}
+.team-caption img{
+    position:  relative;
+    width:  100%;
+}
+.overlay{
+    position:  absolute;
+    top:  0;
+    left: 15px;
+    height:  100%;
+    background-color: #22222285;
+    width: 350px;
+}
+.overlay-content{
+    margin-top: 130px;
+}
+.overlay-content h5{}
+.overlay hr{
+    width: 35px;
+    margin: 5px auto;
+}
+.overlay-content p{
+    color:  white;
+}
+.overlay-content ul{
+    font-size:  13px;
+    margin-top: 3px;
+}
+.overlay-content ul li{}
+.quoto-section{
+    background-image: url(../images/bg-quoto.jpg);
+    height: 1000px;
+    background-size:  cover;
+    background-attachment:  fixed;
+    background-repeat:  no-repeat;
+}
+.quoto{
+    max-width: 700px;
+    padding-top: 500px;
+}
+.quoto p{
+    font-size:  30px;
+    /* width: 59px; */
+}
+.quoto p span{
+    color:  #EF4035;
+    display:  inline-block;
+}
+.quoto hr{}
+.quoto a{
+    color:  white;
+    border:  1px solid white;
+    padding:  10px 10px;
+}
+.quoto a:hover {
+    background:  white;
+    color: #EF4035;
+    text-decoration:  none;
+    transition-duration:  0.4s;
+}
+
+.media-section h2{
+    font-weight: bold;
+    font-size: 52px;
+}
+.media-section p{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.media-body{}
+.media-body-left{
+    float:  left;
+}
+.media-body-left i{
+    font-size: 30px;
+    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 3px solid #222;
+}
+.media-body-right{
+    float:  left;
+    padding-left: 15px;
+}
+.media-body-right h3{
+    margin-bottom:  10px;
+}
+.media-body-right ul{}
+.media-body-right ul li{
+    margin-bottom:  10px;
+}
+.work-section{
+     background:  #FAFAFD;
+}
+.work-section h2{
+    font-weight: bold;
+    font-size: 52px;
+}
+.work-section p{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.portfolio-section{}
+.portfolio-section h2{
+    font-weight: bold;
+    font-size: 52px;
+}
+.portfolio-section p{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.portfolio button{}
+.portfolio-btn{
+    border:  1px solid black;
+    background:  white;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    cursor:  pointer;
+    transition-duration:  0.4s;
+}
+.portfolio-btn:hover{background:  #EF4035;color:  white;border-color:  #EF4035;}
+
+.portfolio-body{
+    margin: 15px 0;
+}
+.portfolio{
+    margin: 15px 0;
+    overflow:  hidden;
+    position: relative !important;
+}
+.portfolio:hover .portfolio-caption{
+    bottom: 0;
+}
+.portfolio-img{
+    filter: grayscale(0);
+}
+.portfolio-img:hover{
+    filter: grayscale(1);
+}
+.portfolio-caption{
+    text-align:  center;
+    /* padding:  15px 0; */
+    width:  100%;
+    height:  75px;
+    position:  absolute;
+    bottom:  -75px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 0;
+}
+.portfolio-caption:hover{
+}
+.caption-text{
+    /* position:  relative; */
+    z-index: 500;
+    padding: 15px 8px;
+    color: white;
+    background:  #EF4035;
+    width:  100%;
+    height:  100%;
+}
+
+.caption-text a{
+    text-decoration: none !important;
+    color: white !important;
+}
+.caption-text span{
+
+font-size: 12px;
+
+display: block;
+
+color:  white;
+}
+.newsletter-section{
+    padding:  100px 0;
+    background-color:  #212121;
+}
+.newsletter-section h2{
+    font-weight: bold;
+    font-size: 52px;
+}
+.subscribe-btn{
+    border: 0;
+    border-radius: 0;
+    background-color: #EF4035;
+    font-size: 1rem;
+    color: white;
+    padding: 12px 18px;
+    transition-duration:  0.4s;
+    cursor:  pointer;
+}
+.subscribe-btn:hover{
+    border-color:  #EF4035;
+    color:  #EF4035;
+    background:  white;
+}
+.buy-btn{
+        font-size: 26px;
+    font-weight: 200;
+    padding: 50px 0;
+    letter-spacing: normal;
+    text-transform: none;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    background-color: #222;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+
+}
+.buy-btn:hover{
+        color: white;
+    background-color: #EF4035;
+}
+footer{
+    background-image: url(../images/bg-footer.jpg);
+        padding: 50px 0 20px;
+    color: rgba(255, 255, 255, 0.7);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer-contact-details{
+    margin: 75px 0;
+}
+.footer-contact-details h4{}
+.footer-contact-details p{
+    font-size: 22px;
+}
+.footer-contact-details a{
+    color: #d1d1d2 !important;
+    text-decoration: none;
+    
+}
+.footer-social{
+        margin-bottom: 75px;
+}
+.footer-social a{
+        color: #d1d1d2 !important;
+}
+.copyright {
+    font-size: 1rem;
+}
+.contact-form{
+    border:  none;
+    border-top: 1px solid #e1e1e1;
+    border-radius: 0;
+    padding: 2em 1em;
+}
+.contact-form:focus {
+    color: #111519;
+    padding-left: 15px;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+    border: 2px solid #80bdff;
+}

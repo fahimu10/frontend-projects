@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+header{background:  #F7F8FA;padding:  30px 0;}
+.container{
+    width:  1200px;
+    margin:  0 auto;
+    overflow:  hidden;
+}
+
+.logo{
+    width:  20%;
+    float:  left;
+}
+.logo a{}
+.logo a img {}
+nav{
+    width:  80%;
+    float:  left;
+    margin-top: 10px;
+}
+nav ul{
+    margin:  0;
+    padding:  0;
+    text-align:  right;
+}
+nav ul li{
+    list-style:  none;
+    display:  inline;
+}
+nav ul li a{
+    text-decoration:  none;
+    color: #2d3950;
+    margin-left:  25px;
+} 
+.cover-section{
+    background: url(../images/background.png);
+    background-repeat:  no-repeat;
+    background-size:  cover;
+}
+.cover{
+    text-align:  center;
+    color:  white;
+    padding: 170px 0px;
+}
+.cover h1{
+    font-size:  6em;
+    margin: 0px;
+}
+.cover hr{
+    max-width: 500px;
+    border-color: #15a4fa;
+}
+.cover p{}
+.cover a{
+    border: 1px solid #15a4fa;
+    color:  white;
+    text-decoration:  none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.arrow{
+    text-align:  center;
+}
+.arrow i{
+    color:  white;
+    font-size:  24px;
+    margin-bottom:  20px;
+}
+.arrow i:hover {
+    color: #15a4fa;
+}
+.about-section{
+    text-align:  center;
+    background:  #F7F8FA;
+}
+.about{padding: 60px 0px;}
+.about h1{
+    color: #2d3950;
+    font-size: 2em;
+    margin:  0px;
+}
+.about p{
+    color:  gray;
+}
+.feature-section{
+    padding: 60px 0px;
+}
+.feature{
+    width:  33.33%;
+    float:  left;
+    text-align:  center;
+    padding:  0px 5px;
+}
+.feature img{
+    margin: 0px auto;
+}
+.feature h1{
+    margin-bottom:  0px;
+    color: #2d3950;
+}
+.feature p{
+    margin-top:  5px;
+    color:  gray;
+}
+.work-section{
+    background: #f7f8fa;
+    padding: 60px 0px;
+}
+.work-section .container{}
+.title{}
+.work {
+    max-width:  33.33%;
+    float:  left;
+    padding:  10px;
+    position:  relative;
+}
+.work img{
+    width:  100%;
+}
+.overlay{
+    position:  absolute;
+    height: 93%;
+    width: 95%;
+    background-color: rgba(21, 164, 250, 0.75);
+    opacity: 0;
+    transition: all 0.4s;
+}
+.work:hover .overlay{
+    opacity:  1;
+}
+.contact-section{
+    background: url(../images/contact-bg.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.contact-section .container .title h1{
+    font-size:  2em;
+    color: white;
+    margin-bottom:  0px;
+    margin-top:  0;
+}
+.contact-section .container .title p{
+    color: gray;
+    margin-top:  5px;
+    margin-bottom: 40px;
+}
+.container .title{
+    text-align:  center;
+}
+form{
+    width:  50%;
+    margin:  0 auto;
+}
+form input[type="text"]{width:  100%;padding: 10px;border: 1px solid gray;margin-bottom: 10px;background:  transparent;border-radius:  4px;}
+form input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    background: transparent;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    background: transparent;
+}
+form ul{
+    padding:  0;
+    margin-top: 15px;
+}
+form ul li{
+    list-style:  none;
+    float:  left;
+    width:  50%;
+}
+form ul li span{
+    color:  white;
+    font-size: 14px;
+}
+form ul li input[type="checkbox"] {}
+form ul li input[type="submit"] {
+    float:  right;
+    border: 1px solid #15a4fa;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    background:  transparent;
+}
+footer{
+    background: #F5F9F8;
+    padding: 30px 0;
+}
+.copyright{
+    width:  50%;
+    float:  left;
+}
+.copyright p{
+    color: gray;
+}
+.social{
+    width:  50%;
+    float:  left;
+}
+.social ul{margin:  0;padding:  0;text-align:  right;}
+.social ul li{
+    display: inline-block;
+    list-style:  none;
+}
+.social ul li a{
+    background-color: #15a4fa;
+    padding: 10px 10px;
+    color:  white;
+    display:  block;
+    margin-left:  2px;
+}
+.social ul li a:hover{
+    background-color: #2d3950;
+} 

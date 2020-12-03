@@ -1,0 +1,197 @@
+.bg-dark {
+    background-color: #616161 !important;
+}
+.purchase{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 0px;
+    transition-duration: 0.4s;
+    margin-left: 5px;
+}
+.purchase:hover{
+    background: #FAFAFA;
+    color: #74736E !important;
+    border: 1px solid white;
+
+}
+.banner-section{
+    position: relative;
+}
+.banner-section img{
+    width:  100%;
+    height: 600px;
+}
+.overlay{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:  100%;
+    background: #60606059;
+}
+.banner-content{
+    position:  absolute;
+    top: 0;
+    margin: 5rem 0;
+}
+.banner-left{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.banner-left h1{}
+.banner-left p{
+    text-align:  justify;
+    margin: 15px 0;
+}
+.banner-left hr{
+    margin: 36px 0px;
+}
+.banner-right hr{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.banner-left span{}
+.banner-right{
+    background:  white;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #15A2B7;
+    border-color: #15A2B7;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+.btn-primary:hover {
+    color: #fff;
+    background-color: #15A2B7;
+    border-color: #15A2B7;
+}
+.development-header{}
+.development-header h1{}
+.development-header p{
+    color: #495057;
+}
+.development-body{
+    padding: 0 50px;
+}
+.development {
+    padding: 0 15px;
+}
+.development h2{
+    border: 1px solid #495057;
+    color: #495057;
+    border-radius: 100%;
+    text-align: center;
+    display:  inline-block;
+    padding: 15px;
+    font-weight:  100;
+    font-size:  20px;
+    margin-bottom:  20px;
+}
+.development p{
+    font-weight:  bold;
+}
+.development span{
+    color: #495057;
+    text-align:  justify;
+}
+.development-section{
+
+}
+.quoto-section{
+
+
+}
+.quoto img{
+    width: 100%;
+    height: 100%
+}
+.quoto-left{
+    margin:  0 -15px;
+}
+.quoto-right{background:  #FAFAFD;margin: 0 -15px;}
+
+.quoto-content{
+    width:  70%;
+    margin: 0 auto;
+    transform: translatey(150px);
+}
+.quoto-content h1{}
+.quoto-content p{
+    color: #495057;
+}
+.quoto-content hr{
+    color:  gray;
+}
+.team-member{
+    padding: 25px;
+}
+.team-member img{}
+.team-member h3{
+    margin-top:  10px;
+}
+.team-member p{
+    margin: 15px 0;
+    color: #495057;
+}
+.team-member ul{
+    color:  #495057;
+}
+.team-member ul li{}
+.team-member a {
+    color: #495057;
+    margin: 0 3px;
+}
+.feature-section{
+    position: relative;
+}
+.feature-section img{
+    width:  100%;
+    height: 600px;
+}
+.feature-content{
+    position:  absolute;
+    top: 0;
+    margin: 5rem 0;
+}
+.feature-left{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.feature-left h1{}
+.feature-left p{
+    text-align:  justify;
+    margin: 20px 0;
+}
+
+
+.feature-left span{}
+
+
+}
+.ask-button {
+    margin: 4em auto;
+    text-align:  center;
+}
+footer{
+    padding: 1em 0;
+    border-top: 1px solid gray;
+    margin-top: 3em;
+    text-align:  right;
+}
+footer p{
+    color: #495057;
+    padding-right:  15px;
+    margin-bottom:  0;
+}
+
+

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700');
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6 {
+	font-family: 'PT Serif', serif;
+}
+/*Nav section*/
+.nav-section{}
+/*Nav section*/
+/*Banner Section*/
+.banner-section{
+    position: relative !important;
+}
+.blog-caption{
+
+font-size:  14px;
+
+}
+.blog-caption p{
+    font-size: 14px !important;
+    color:  #b0b0b0;
+    padding-right:  10px;
+    border-right:  1px solid #b0b0b0;
+    display:  inline-block;
+}
+.blog-caption span{
+
+color:  #1a54e7;
+
+display:  inline-block;
+
+padding-left: 10px;
+}
+.banner-section img{}
+.blog-caption-banner{
+    position:  absolute;
+    bottom: 40px;
+    display:  block;
+}
+.blog-type-banner {
+    color:  white;
+    display:  inline-block;
+    padding: 12px 15px;
+    text-align:  center;
+    font-size:  18px;
+    font-weight:  bold;
+}
+.blog-type {
+    color:  white;
+    display:  inline-block;
+    padding: 12px 15px;
+    text-align:  center;
+    font-size:  18px;
+    font-weight:  bold;
+    position:  absolute;
+    bottom: 42%;
+}
+.people{
+    background:  #1a54e7;
+}
+.trips{background-color:  #d90445;}
+.tech{
+    background-color:  black;
+}
+.fashion{
+	background-color: #8200b2;
+}
+.nature{
+    background-color: #58b600;
+}
+.blog-caption-right{
+
+font-size:  14px;
+
+display:  inline-block;
+
+float:  right;
+
+padding-right: 10px;
+}
+.blog-caption-right p{
+    font-size:  14px;
+    color:  #b0b0b0;
+    padding-right:  10px;
+    border-right:  1px solid #b0b0b0;
+    display:  inline-block;
+}
+.blog-caption-right span{
+
+color:  #1a54e7;
+
+display:  inline-block;
+
+padding-left: 10px;
+}
+.banner-content{
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:  center;
+    color: white;
+}
+.banner-content img{
+    margin-bottom:  30px;
+    height:  140px;
+    width:  140px;
+}
+.banner-content h1{
+    font-size:  48px;
+}
+
+/*Banner Section*/
+
+/*Blog Section*/
+.blog-section{
+    padding: 5em 0;
+    background-color:  #f6f6f6;
+}
+.blog-body{}
+.blog-body img{
+    max-width:  100%;
+    position:  relative;
+    margin-bottom: 20px;
+}
+.blog-body p{
+    font-size:  24px;
+}
+
+
+/*Blog Section*/
+
+/*Feature Section*/
+.feature-section{
+    position:  relative;
+    padding: 5em 0;
+}
+.feature-content{
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%);
+    text-align:  center;
+    color:  white;
+    width:  700px;
+}
+.feature-content h2{
+    font-size:  48px;
+}
+.feature-content p{
+    font-size:  18px;
+}
+.blog-caption-feature{
+    position:  absolute;
+    bottom: 90px;
+    display:  block;
+    transform: translateX(-15px);
+}
+/*Feature Section*/
+
+/*Box Section*/
+.box-section{
+    margin-bottom:  3em;
+}
+.box-body{}
+.box-body img{
+    max-width:  100%;
+    margin-bottom:  10px;
+}
+.box-body p{}
+
+/*Box Section*/
+
+/*Newsletter Section*/
+.newsletter-section{
+    position:  relative;
+}
+.newsletter-section img{}
+.newsletter-content{
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:  white;
+    text-align:  center;
+}
+.newsletter-content h2{
+    font-size: 48px;
+}
+.newsletter-content p{
+    color: #8baeff;
+    font-size:  24px;
+}
+.newsletter-content input{
+    background-color: #8baeff;
+    border-color:  #8baeff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin:  0;
+    position:  relative;
+    display:  block;
+    width:  570px;
+}
+.newsletter-content button{
+    background-color: white;
+    color:  #1a54e7;
+    border-color:  white;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin:  0;
+    position:  absolute;
+    right: 0;
+    top: 118px;
+    font-weight:  bold;
+}
+
+/*Newsletter Section*/
+
+
+/*Footer*/
+
+footer{
+    height:  220px;
+}
+
+footer p{
+    font-size:  18px;
+    color:  #a7acbc;
+    margin-top: 80px;
+}
+
+/*Footer*/
