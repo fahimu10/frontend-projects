@@ -1,0 +1,65 @@
+/*-----------------------------------
+  #Elements
+-----------------------------------*/
+* {
+  font-family: 'Hind Siliguri', sans-serif;
+  letter-spacing: -0.62px;
+}
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  letter-spacing: -0.62px;
+  background-color: #ffffff;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../../img/banner-bg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+a {
+  color: $color-primary;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.54px;
+  transition-duration: .25s;
+}
+
+a:hover {
+  color: $color-theme;
+  text-decoration: none;
+}
+
+h1 {
+  width: 90%;
+  margin-bottom: 50px;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.87px;
+  color: $color-primary;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: -0.86px;
+  color: $color-primary;
+}
+
+footer {
+  height: auto;
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  border-top: solid 1px #8b91a0;
+
+  p {
+    color: #8b91a0;
+    font-size: 14px;
+    line-height: 2.07;
+  }
+}

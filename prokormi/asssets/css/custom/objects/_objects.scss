@@ -1,0 +1,50 @@
+/*-----------------------------------
+  #Objecrts
+-----------------------------------*/
+.navbar {
+  height: 12vh;
+}
+
+.nav-link {
+  margin-left: 5rem;
+}
+
+.banner-content {
+  height: 88vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-section {
+  padding: 5rem 0;
+}
+
+.footer-obj {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+}
+
+.footer-col {
+  justify-items: start;
+  align-self: start;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: flex-end;
+
+  li {
+    margin-left: 2rem;
+  }
+}
+
+.about-section {
+  height: 88vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
