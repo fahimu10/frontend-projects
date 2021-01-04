@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fahijwub/portfolio.fahimuddin.dev/
+    - /bin/cp -R * $DEPLOYPATH
