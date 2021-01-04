@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/fahijwub/portfolio.fahimuddin.dev/
+    - export DEPLOYPATH=/home/fahijwub/portfolio.fahimuddin.dev/frontend/
     - /bin/cp -R * $DEPLOYPATH
