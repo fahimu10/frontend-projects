@@ -3,49 +3,81 @@
 <head>
 	<title>MINIMO | Website</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
 		<header>
 			<div class="logo">
-				<a href="#"><img src="images/logo.png" alt="Logo"></a>
+				<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#">LIFESTYLE</a></li>
-					<li><a href="#">PHOTODIARY</a></li>
-					<li><a href="#">MUSIC</a></li>
-					<li><a href="#">TRAVEL</a></li>
+					<li><a href="#aboutus">About Us</a></li>
+					<li><a href="feedback.html">Give Feedback</a></li>
+					<li><a href="#contact">Contact</a></li>
+					
 				</ul>
 			</nav>
 		</header>
 		<div class="banner">
 			<img src="images/banner.jpg" alt="Banner">
 		</div>
-		<div class="main-content">
-			<span>PHOTODIARY</span>
-			<h1>The perfect weekend getaway</h1>
+		<div id="aboutus" class="main-content">
+			<span>Minimo</span>
+			<h1>A bit about Us</h1>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-			<a href="#">LEAVE A COMMENT</a>
+			<!-- <a href="#">Give Feedback</a> -->
 		</div>
 
 		<div class="blog">
+			<span>Get The Best From</span>
+			<h1>Featured Product</h1>
 			<div class="blog1">
 				<img src="images/blog1.jpg">
-				<span>LIFESTYLE</span>
-				<h2>More than just a music festival</h2>
+				<span>Price $ 80.00</span>
+				<h2>Summer Outfit</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 			<div class="blog2">
 				<img src="images/blog2.jpg">
-				<span>LIFESTYLE</span>
-				<h2>Life tastes better with coffe</h2>
+				<span>Price $ 90.00</span>
+				<h2>Winter Outfit</h2>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
 		</div>
+		<hr>
+		<div id="contact" class="contact">
+			<span style="margin-left: 40px;">Need Assistance</span>
+			
+			<h2 style="margin-left: 40px;">Get In Touch With Us</h2>
+			<div class="contact-left">
+				
+				<p>Address: House 12, Road 2, Block C, Bashundhara R/A, Dhaka 1229</p>
+			</div>
+			<dive class="contact-right">
+				<div class="contact-form">
+					<form action="action_page.php">
+
+						<label for="name">Full Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your Name" required>
+					
+						<label for="email">Email</label>
+						<input type="email" id="lname" name="lastname" placeholder="Your Email" required>
+					
+					
+						<label for="subject">Message</label>
+						<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+					
+						<input type="submit" value="Submit">
+					
+					  </form>
+				</div>
+			</dive>
+		</div>
 		<footer>
-			<p>copyright all right reserved by <a href="#">minimo</a></p>
+			<p>copyright all right reserved by <a href="index.html">minimo</a></p>
 		</footer>
 	</div>
 

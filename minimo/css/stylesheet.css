@@ -1,15 +1,20 @@
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0px;
     padding:  0px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 img{}
 *{
     box-sizing:  border-box;
     color: #626567;
+    
 }
+
+
 .container{width:  1000px;margin: 0 auto;overflow:  hidden;}
 header{
     width:  100%;
@@ -34,19 +39,24 @@ nav ul li {
     display:  inline;
     padding-right: 40px;
 }
+
 nav ul li a {
 
 text-decoration:  none;
 
 color:  #626567;
 }
+a:hover {
+    color: darkgrey;
+}
+
 .banner{
     padding-top:  15px;
 }
 .main-content{
     padding: 38px;
 }
-.main-content span {
+span {
     color:  #d1d1d1;
 }
 .main-content p {color:  #626567;text-align: justify;}
@@ -58,6 +68,7 @@ color:  #626567;
 .blog{
     width:  100%;
     padding: 38px;
+    overflow: hidden;
 }
 .blog1{
     width:  50%;
@@ -83,4 +94,77 @@ footer p {
     padding-top:  20px;
     color: #323232;
 }
+hr{
+    color: grey;
+    margin: 40px;
+}
+.contact{
+    height: 500px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.contact-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.contact-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+.t-center{
+    text-align: center;
+}
+ .feedback{
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+.feedback-form{
+    width: 50%;
+}
+
+
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: darkgrey;
+  }
+
 
